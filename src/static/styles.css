@@ -87,13 +87,13 @@ section h3 {
   font-weight: bold;
 }
 
-.activity-card .participants ul {
+.activity-card .participants .participants-list {
   margin-left: 0;
   color: #666;
   list-style: none;
 }
 
-.activity-card .participants li {
+.activity-card .participants .participants-list li {
   margin-bottom: 8px;
   font-size: 14px;
   display: flex;
