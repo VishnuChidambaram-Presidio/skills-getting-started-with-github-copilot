@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
         activitySelect.appendChild(option);
       });
     } catch (error) {
-      activitiesList.innerHTML = "<p>Failed to load activities. Please try again later.</p>";
+      activitiesList.textContent = "Failed to load activities. Please try again later.";
       console.error("Error fetching activities:", error);
     }
   }
